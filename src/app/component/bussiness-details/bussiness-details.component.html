@@ -1,0 +1,24 @@
+
+<div>
+  <div class="header"><span>
+    Business Details
+  </span> 
+</div>
+  <mat-card>
+      <mat-card-header>
+        <mat-icon>perm_identity</mat-icon><span></span>
+        <mat-card-title>Profile</mat-card-title>
+        <button mat-raised-button color="warn" (click)="editProfile()">Edit Profile</button>
+      </mat-card-header>
+      <mat-divider></mat-divider>
+      <mat-card-subtitle>
+        <p>Name: <span class="profile-info">{{profile.name}}</span></p>
+        <p>Domain:<span class="profile-info">{{profile.domain}}</span></p>
+        <p>Gender:<span class="profile-info">{{profile.gender}}</span></p>
+        <p>Date of Birth:<span class="profile-info">{{profile.dateOfBirth}}</span></p>
+        <p>Phone Number:<span class="profile-info">{{profile.phone}}</span></p>
+        <p>Location:<span class="profile-info">{{profile.location}}</span></p>
+      </mat-card-subtitle>
+    </mat-card>
+</div>
+

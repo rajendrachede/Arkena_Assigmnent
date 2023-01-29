@@ -1,0 +1,27 @@
+@import '../../../style/utils';
+
+.example-header-image {
+  background-image:  url('../../../assets/profile.png');
+  background-size: cover;
+}
+
+.mat-mdc-card-avatar.example-header-image {
+  margin-left: rem(120px);
+  width: rem(100px);
+  height: rem(100px);
+}
+
+p {
+  text-align: center;
+}
+mat-card{
+  height: rem(365px);
+}
+.m{
+  display: flex;
+  margin-left: rem(120px);
+  margin-top: rem(20px);
+  align-content: space-between;
+  flex-wrap: nowrap;
+  color: lightcoral;
+}

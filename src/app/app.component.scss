@@ -1,0 +1,18 @@
+@import '../style/utils';
+
+.main-content{
+    display: flex;
+    margin: rem(35px);
+
+    .profile{
+        width: 30%;
+        border-style: solid;
+        border-width: thin;
+    }
+    .bussiness-details{
+        width: 70%;
+        margin-left: rem(20px);
+        border-style: solid;
+        border-width: thin;
+    }
+}

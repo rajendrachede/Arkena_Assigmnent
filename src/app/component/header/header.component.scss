@@ -1,0 +1,32 @@
+@import '../../../style/utils';
+
+.right {
+  margin-left: rem(640px);
+  display: flex;
+
+  button {
+    height: rem(30px);
+    margin-right: rem(20px);
+    margin: rem(10px);
+    background-color: red;
+  }
+
+  .example-header-image {
+    background-image: url('../../../assets/profile.png');
+    background-size: cover;
+  }
+}
+
+mat-icon {
+  margin-left: rem(10px);
+}
+
+.left{
+  font-size:rem(14px);
+  display: flex;
+  margin-left: rem(20px);
+  img{
+    height: rem(15px);
+    padding-left: rem(14px);
+  }
+}

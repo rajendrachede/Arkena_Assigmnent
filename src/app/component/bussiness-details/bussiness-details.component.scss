@@ -1,0 +1,30 @@
+@import '../../../style/utils';
+
+mat-card-subtitle.mat-mdc-card-subtitle {
+  margin-left: rem(20px);
+}
+
+button {
+  margin-left: 75%;
+}
+
+.header {
+  height: rem(50px);
+  background: lightgoldenrodyellow;
+
+  span {
+    margin: rem(10px);
+  }
+}
+
+mat-divider {
+  margin: rem(15px);
+}
+
+mat-icon {
+  margin-left: rem(10px);
+  margin-top: rem(5px);
+}
+.profile-info{
+  margin: 300px
+}
